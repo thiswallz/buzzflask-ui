@@ -67,7 +67,7 @@ export default function TestimonialsCarousel() {
               <Highlighter className="swiper-wrapper w-fit" refresh={swiperInitialized}>
                 {/* Carousel items */}
                 <HighlighterItem className="swiper-slide h-auto group/slide">
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     {/* Particles animation */}
                     <Particles className="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" quantity={3} refresh={swiperInitialized} /> 
                     {/* Radial gradient */}
@@ -87,7 +87,7 @@ export default function TestimonialsCarousel() {
                   </div>
                 </HighlighterItem>
                 <HighlighterItem className="swiper-slide h-auto group/slide">
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     {/* Particles animation */}
                     <Particles className="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" quantity={3} refresh={swiperInitialized} />                     
                     {/* Radial gradient */}
@@ -107,7 +107,7 @@ export default function TestimonialsCarousel() {
                   </div>
                 </HighlighterItem>
                 <HighlighterItem className="swiper-slide h-auto group/slide">
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     {/* Particles animation */}
                     <Particles className="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" quantity={3} refresh={swiperInitialized} />                     
                     {/* Radial gradient */}
@@ -127,7 +127,7 @@ export default function TestimonialsCarousel() {
                   </div>
                 </HighlighterItem>
                 <HighlighterItem className="swiper-slide h-auto group/slide">
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     {/* Particles animation */}
                     <Particles className="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" quantity={3} refresh={swiperInitialized} />                     
                     {/* Radial gradient */}
@@ -147,7 +147,7 @@ export default function TestimonialsCarousel() {
                   </div>
                 </HighlighterItem>
                 <HighlighterItem className="swiper-slide h-auto group/slide">
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     {/* Particles animation */}
                     <Particles className="absolute inset-0 -z-10 opacity-0 group-[.swiper-slide-active]/slide:opacity-100 group-hover/slide:opacity-100 transition-opacity duration-500 ease-in-out" quantity={3} refresh={swiperInitialized} />                     
                     {/* Radial gradient */}

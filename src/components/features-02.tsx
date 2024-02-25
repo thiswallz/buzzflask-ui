@@ -43,7 +43,7 @@ export default function Features02() {
               {/* Box #1 */}
               <div className="md:col-span-12" data-aos="fade-down">
                 <HighlighterItem>
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     <div className="flex flex-col md:flex-row md:items-center md:justify-between">
                       {/* Blurred shape */}
                       <div className="absolute right-0 top-0 blur-2xl" aria-hidden="true">
@@ -89,7 +89,7 @@ export default function Features02() {
               {/* Box #2 */}
               <div className="md:col-span-7" data-aos="fade-down">
                 <HighlighterItem>
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     <div className="flex flex-col">
                       {/* Radial gradient */}
                       <div className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
@@ -113,7 +113,7 @@ export default function Features02() {
               {/* Box #3 */}
               <div className="md:col-span-5" data-aos="fade-down">
                 <HighlighterItem>
-                  <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+                  <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                     <div className="flex flex-col">
                       {/* Radial gradient */}
                       <div className="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">

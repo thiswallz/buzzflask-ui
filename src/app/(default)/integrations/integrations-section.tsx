@@ -14,7 +14,7 @@ export default function IntegrationsSection() {
       </div>
 
       {/* Opacity layer */}
-      <div className="absolute inset-0 bg-slate-900 opacity-60 -z-10" aria-hidden="true"></div>
+      <div className="absolute inset-0 bg-bgprimary opacity-60 -z-10" aria-hidden="true"></div>
 
       {/* Radial gradient */}
       <div className="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-[800px] aspect-square" aria-hidden="true">

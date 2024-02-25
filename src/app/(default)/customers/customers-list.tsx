@@ -98,7 +98,7 @@ export default function CustomersList() {
         <div key={index}>
           <Link href={item.link}>
             <HighlighterItem02>
-              <div className="relative h-full bg-slate-900 rounded-[inherit] z-20 overflow-hidden">
+              <div className="relative h-full bg-bgprimary rounded-[inherit] z-20 overflow-hidden">
                 {/* Particles animation */}
                 <Particles className="absolute inset-0 -z-10" quantity={3} />
                 <div className="flex items-center justify-center">

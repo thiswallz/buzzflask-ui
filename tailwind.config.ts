@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
+        'white': '#ffffff',
+        bgprimary: '#000000',
+      },
       fontFamily: {
         inter: ['var(--font-inter)', 'sans-serif'],
       },
