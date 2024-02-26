@@ -44,7 +44,7 @@ const Flask = ({
         <div className="absolute mx-8 md:mx-5 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center text-slate-400">
           {subtitle}
         </div>
-        <div className="absolute transition-opacity md:opacity-0 group-hover:opacity-100 bottom-24 z-10 text-sm text-center text-slate-400">
+        <div className="absolute transition-opacity md:opacity-0 group-hover:opacity-100 bottom-28 z-10 text-sm text-center text-slate-400">
           <a
             className="btn text-slate-200 hover:text-white bg-bgprimary bg-opacity-50 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
             href="#0"
@@ -213,7 +213,7 @@ export default function Flasks() {
                 />
 
                 <Flask
-                  title="Accesibility"
+                  title="Accessibility"
                   subtitle="Use AI algorithms to recommend personalized content or products based on visitor behavior."
                   flaskImage={Flask5}
                   baseColor={"#ffee07"}
