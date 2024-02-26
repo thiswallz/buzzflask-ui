@@ -5,12 +5,12 @@ import { useState } from "react";
 import Image from "next/image";
 import { Transition } from "@headlessui/react";
 import Particles from "./particles";
-import Flask1 from "@/assets/flasks/t_37.png";
-import Flask2 from "@/assets/flasks/t_24.png";
-import Flask3 from "@/assets/flasks/t_123.png";
-import Flask4 from "@/assets/flasks/t_153.png";
-import Flask5 from "@/assets/flasks/t_150.png";
-import Flask6 from "@/assets/flasks/t_157.png";
+import Flask1 from "../assets/flasks/t_37.png";
+import Flask2 from "../assets/flasks/t_24.png";
+import Flask3 from "../assets/flasks/t_123.png";
+import Flask4 from "../assets/flasks/t_153.png";
+import Flask5 from "../assets/flasks/t_150.png";
+import Flask6 from "../assets/flasks/t_157.png";
 
 function generateRandomId() {
   return "_" + Math.random().toString(36).substr(2, 9);
@@ -23,7 +23,7 @@ const Flask = ({
   subtitle,
   linear1,
   linear2,
-}) => {
+}: any) => {
   const randomId = generateRandomId();
 
   return (
@@ -43,6 +43,22 @@ const Flask = ({
         {/* SubTitle */}
         <div className="absolute mx-20 md:mx-0 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center md:mx-20 text-slate-400">
           {subtitle}
+        </div>
+        <div className="absolute mx-20 md:mx-0 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center md:mx-20 text-slate-400">
+          <a
+            className="btn text-slate-200 hover:text-white bg-bgprimary bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
+            href="#0"
+          >
+            <svg
+              className="shrink-0 fill-slate-300 mr-3"
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+            >
+              <path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" />
+            </svg>
+            <span>Read the docs</span>
+          </a>
         </div>
       </div>
       <div className="flex items-center justify-center">
@@ -135,7 +151,7 @@ export default function Flasks() {
           className="h1 pt-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4"
           data-aos="fade-down"
         >
-            Our Flasks!
+          Our Flasks!
         </h1>
         <div className="pt-10 pb-12 md:pt-28 md:pb-20">
           <div>
