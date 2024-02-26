@@ -41,12 +41,12 @@ const Flask = ({
           {title}
         </div>
         {/* SubTitle */}
-        <div className="absolute mx-20 md:mx-0 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center md:mx-20 text-slate-400">
+        <div className="absolute mx-20 md:mx-5 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center text-slate-400">
           {subtitle}
         </div>
-        <div className="absolute mx-20 md:mx-0 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center md:mx-20 text-slate-400">
+        <div className="absolute transition-opacity md:opacity-0 group-hover:opacity-100 bottom-24 z-10 text-sm text-center text-slate-400">
           <a
-            className="btn text-slate-200 hover:text-white bg-bgprimary bg-opacity-25 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
+            className="btn text-slate-200 hover:text-white bg-bgprimary bg-opacity-50 hover:bg-opacity-30 w-full transition duration-150 ease-in-out"
             href="#0"
           >
             <svg
@@ -57,7 +57,7 @@ const Flask = ({
             >
               <path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" />
             </svg>
-            <span>Read the docs</span>
+            <span>Live Example!</span>
           </a>
         </div>
       </div>
