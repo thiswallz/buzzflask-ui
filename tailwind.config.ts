@@ -42,6 +42,7 @@ const config: Config = {
         'endless': 'endless 20s linear infinite',
         'shine': 'shine 5s linear 500ms infinite',
         'float': 'float 2s ease-in-out infinite',
+        'glow': 'pulse 5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
       },
       keyframes: {
         'endless': {
@@ -66,5 +67,7 @@ const config: Config = {
     require('@tailwindcss/forms'),
     require('@tailwindcss/typography'),
   ],
+  safelist: [
+  ]
 };
 export default config;

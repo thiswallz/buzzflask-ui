@@ -12,12 +12,14 @@ import TestimonialsCarousel from '@/components/testimonials-carousel'
 import Features04 from '@/components/features-04'
 import Testimonials from '@/components/testimonials'
 import Cta from '@/components/cta'
+import Flasks from '@/components/flasks'
 
 export default function Home() {
   return (
     <>
       <Hero />
       <Clients />
+      <Flasks />
       <Features />
       <Features02 />
       <Features03 />
