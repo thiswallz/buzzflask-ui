@@ -41,7 +41,7 @@ const Flask = ({
           {title}
         </div>
         {/* SubTitle */}
-        <div className="absolute mx-20 md:mx-5 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center text-slate-400">
+        <div className="absolute mx-8 md:mx-5 transition-opacity md:opacity-0 group-hover:opacity-100 bottom-10 z-10 text-sm text-center text-slate-400">
           {subtitle}
         </div>
         <div className="absolute transition-opacity md:opacity-0 group-hover:opacity-100 bottom-24 z-10 text-sm text-center text-slate-400">
