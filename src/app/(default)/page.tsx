@@ -22,11 +22,11 @@ export default function Home() {
   return (
     <>
       <div className="flex lg:flex-row flex-col gap-1 mx-2 md:mx-12">
-        <div className="md:w-1/2 flex items-center">
+        <div className="lg:w-1/2 flex items-center">
           <Hero />
         </div>
-        <div className="md:w-1/2 flex items-center justify-center md:pt-24">
-          <div className="border w-full h-full rounded-md relative overflow-hidden relative h-[450px] min-w-[600px] max-w-[600px]">
+        <div className="lg:w-1/2 flex items-center justify-center lg:pt-24">
+          <div className="border w-full h-full rounded-md relative overflow-hidden relative max-h-[450px] min-h-[450px] min-w-[500px] max-w-[600px]">
             <div className="p-4 border-b">Your Website</div>
             <div className="p-4 absolute top-[180px] right-40">Get Started with Just One Click!</div>
             <Image
@@ -42,7 +42,7 @@ export default function Home() {
               width={120}
               height={40}
               alt="Icon 05"
-              className="absolute bottom-28 right-24 transform rotate-[180deg]"
+              className="absolute top-[220px] right-24 transform rotate-[180deg]"
             />
             <LiveShowcase />
           </div>
