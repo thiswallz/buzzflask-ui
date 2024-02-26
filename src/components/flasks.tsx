@@ -57,7 +57,7 @@ const Flask = ({
             >
               <path d="m1.999 0 1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 0l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM11.999 10l1 2-1 2 2-1 2 1-1-2 1-2-2 1zM6.292 7.586l2.646-2.647L11.06 7.06 8.413 9.707zM0 13.878l5.586-5.586 2.122 2.121L2.12 16z" />
             </svg>
-            <span>Live Example!</span>
+            <span>Live Example Soon</span>
           </a>
         </div>
       </div>
@@ -147,12 +147,17 @@ export default function Flasks() {
   return (
     <section>
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <h1
+        <h2
           className="h1 pt-16 text-center bg-clip-text text-transparent bg-gradient-to-r from-slate-200/60 via-slate-200 to-slate-200/60 pb-4"
           data-aos="fade-down"
         >
-          Our Flasks!
-        </h1>
+          Our Tools
+        </h2>
+        <p className="flex justify-center">
+          <span className="text-center max-w-2xl text-slate-500">
+            Elevate your website with our <span className='text-green-600'>no-code</span>, user-friendly modules. Choose and customize the perfect tools to enhance your site without any technical barriers. 
+          </span>
+        </p>
         <div className="pt-10 pb-12 md:pt-28 md:pb-20">
           <div>
             {/* Section content */}

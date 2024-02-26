@@ -15,7 +15,7 @@ export default function Footer() {
                 <div className="mb-4">
                   <Logo />
                 </div>
-                <div className="text-sm text-slate-300">© Cruip.com <span className="text-slate-500">-</span> All rights reserved.</div>
+                <div className="text-sm text-slate-300">© buzzflask.com <span className="text-slate-500">-</span> All rights reserved.</div>
               </div>
               {/* Social links */}
               <ul className="flex">
@@ -53,9 +53,6 @@ export default function Footer() {
               </li>
               <li>
                 <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Integrations</a>
-              </li>
-              <li>
-                <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Pricing & Plans</a>
               </li>
               <li>
                 <a className="text-slate-400 hover:text-slate-200 transition duration-150 ease-in-out" href="#0">Changelog</a>

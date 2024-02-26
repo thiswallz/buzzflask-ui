@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 3" id="Layer_3" viewBox="0 0 32 32"><defs><style>.cls-1,.cls-2{fill:none;stroke:#13f57e;}.cls-1{stroke-linecap:round;stroke-linejoin:round;stroke-width:2px;}.cls-2{stroke-miterlimit:10;}.cls-3{fill:#13f57e;}</style></defs><title/><path class="cls-1" d="M13.5,19.5v4.08l-9-8.08,9-8.08V11.5s14.17-.75,14.17,12.17C23.25,16.5,13.5,19.5,13.5,19.5Z" style="fill: none; stroke: #13f57e; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2px;"/><line class="cls-2" x1="6.53" x2="13.8" y1="17.59" y2="11.24" style="fill: none; stroke: #d4f121; stroke-miterlimit: 10;"/><polygon class="cls-3" points="4.5 15.5 5.88 16.63 13.44 9.75 13.5 7.42 4.5 15.5" style="fill: #d4f121;"/>
+	<metadata>
+		<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:dc="http://purl.org/dc/elements/1.1/">
+			<rdf:Description about="https://iconscout.com/legal#licenses" dc:title="2303135,arrow,back,left,refresh,renew,restart" dc:description="2303135,arrow,back,left,refresh,renew,restart" dc:publisher="Iconscout" dc:date="2017-07-08" dc:format="image/svg+xml" dc:language="en">
+				<dc:creator>
+					<rdf:Bag>
+						<rdf:li>Laura Reen</rdf:li>
+					</rdf:Bag>
+				</dc:creator>
+			</rdf:Description>
+		</rdf:RDF>
+    </metadata></svg>
