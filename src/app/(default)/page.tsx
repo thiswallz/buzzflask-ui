@@ -21,14 +21,14 @@ import LogoImg from "@/assets/images/logo.png";
 export default function Home() {
   return (
     <>
-      <div className="flex lg:flex-row flex-col gap-1 mx-2 md:mx-12">
-        <div className="lg:w-1/2 flex items-center">
+      <div className="flex lg:flex-row flex-col gap-1 mx-2 md:mx-12 gap-4">
+        <div className="lg:w-1/2 flex items-center justify-end">
           <Hero />
         </div>
-        <div className="lg:w-1/2 flex items-center justify-center lg:pt-24">
-          <div className="border w-full h-full rounded-md relative overflow-hidden relative max-h-[450px] min-h-[450px] min-w-[500px] max-w-[600px]">
+        <div className="lg:w-1/2 flex items-center lg:justify-start lg:pt-24">
+          <div className="border w-full h-full rounded-md relative overflow-hidden relative max-h-[450px] min-h-[450px] min-w-[500px] lg:max-w-[600px]">
             <div className="p-4 border-b">Your Website</div>
-            <div className="p-4 absolute top-[180px] right-40">Get Started with Just One Click!</div>
+            <div className="p-4 absolute top-[180px] right-40">Easily integrate it into any website.</div>
             <Image
               className="max-w-none absolute top-24 right-56"
               src={LogoImg}

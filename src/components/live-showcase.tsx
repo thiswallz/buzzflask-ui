@@ -10,7 +10,7 @@ import Flask6 from "../assets/flasks/t_157.png";
 export default function LiveShocase() {
   return (
     <div className="transition-all absolute top-1/2 transform -translate-x-1/2 -right-[calc(120px-10px)] hover:-right-[calc(120px-20px)] z-30 group">
-      <div className="w-[120px] h-[60px] transition-all cursor-pointer -rotate-[90deg] bg-[#141414] p-2 px-4 rounded-t-md">
+      <div className="w-[120px] h-[60px] transition-all cursor-pointer -rotate-[90deg] bg-orange-500 p-2 px-4 rounded-t-md">
         <a className="flex gap-1 items-center">
         <svg
               className="shrink-0 fill-slate-300 mr-3"
